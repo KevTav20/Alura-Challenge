@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.shadowFooter{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.holded[type="text"]::placeholder {
+    /* Estilos para el placeholder */
+    position: absolute;
+    top: 0;
+}
+
+.nada{
+    display: none;
+}
+
+
+.postFocus:focus {
+    outline: none;
+}
+
+.hoverShadow:hover{
+    box-shadow: #0A3871 0px 7px 14px -12px inset, #0A3871 0px 9px 18px -9px inset;
+    translate: 2s ease;
+}

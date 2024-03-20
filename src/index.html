@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+</head>
+<body class="bg-[#F3F5FC] grid gap-16 xl:flex p-12">
+    <main class="w-11/12 place-self-center flex flex-col justify-between xl:w-[70%]">
+        <header class="place-self-center w-full xl:w-full">
+            <a href="" class="text-[#0A3871] text-[5rem]">a</a>
+        </header>
+
+        <textarea placeholder="Ingresa el texto aqui" name="" id="" cols="30" rows="10" class="text-start text-3xl placeholder-[#0A3871] bg-transparent text-[#0A3871] w-full h-[25rem] holded xl:w-[80%] xl:self-end xl:h-[40rem] postFocus hoverShadow cursor-pointer"></textarea>
+
+        <div class="w-full xl:w-[80%] grid gap-3 xl:self-end">
+            <span class="flex gap-2"><img src="/images/exclamation-circle.svg" alt="">Solo letras minusculas y sin acentos</span>
+            <form action="" class="w-full grid gap-2 sm:flex">
+                <button  class="w-full h-12 text-center bg-[#0A3871] text-white rounded-2xl">Encriptar</button>
+                <button  class="w-full h-12 text-center border border-[#0A3871] placeholder-[#0A3871] rounded-2xl bg-none text-[#0A3871]" id="desencriptarInput">Desencriptar</button>
+            </form>
+        </div>
+    </main>
+    <div class="w-11/12 place-self-center grid p-4 gap-2 bg-white shadowFooter rounded-3xl mb-16 xl:w-[30%] xl:hidden">
+        <h2 class="text-[#343A40] text-xl font-black text-center">Ningun mensaje fue encontrado</h2>
+        <p class="text-center">Ingresa el texto que desees ecnriptar o desencriptar</p>
+    </div>
+
+    <div class="nada xl:grid bg-white shadowFooter rounded-3xl">
+       <section class="self-center grid gap-3 p-2">
+        <img src="/images/Muñeco.png" alt="">
+        <h2 class="text-[#343A40] text-xl font-black text-center text-[24px]">Ningun mensaje fue encontrado</h2>
+        <p class="text-[16px] text-center">Ingresa el texto que desees encriptar o desencriptar</p>
+       </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
